@@ -1,0 +1,58 @@
+[
+  {
+    "id": "P1",
+    "title": "The relations among inhibition and interference control functions: A latent-variable analysis",
+    "authors": ["Naomi P. Friedman", "Akira Miyake"],
+    "year": 2004,
+    "journal": "Journal of Experimental Psychology: General",
+    "doi_or_url": "https://doi.org/10.1037/0096-3445.133.1.101",
+    "citation_count": 2316,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": ["primary_shape_matching_protocol", "stimulus_layout", "timing", "condition_balance"],
+    "parameter_bindings": {},
+    "notes": "Public author PDF; Semantic Scholar citation count checked 2026-08-23."
+  },
+  {
+    "id": "P2",
+    "title": "Dual mechanisms of negative priming",
+    "authors": ["Michael J. Kane", "Cynthia P. May", "Lynn Hasher", "Tamara Rahhal", "Ellen R. Stoltzfus"],
+    "year": 1997,
+    "journal": "Journal of Experimental Psychology: Human Perception and Performance",
+    "doi_or_url": "https://doi.org/10.1037/0096-1523.23.3.632",
+    "citation_count": 108,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": ["modal_negative_priming_parameters", "prime_probe_logic", "analysis_exclusions"],
+    "parameter_bindings": {},
+    "notes": "Open author manuscript at UNC Greensboro repository; Semantic Scholar citation count checked 2026-08-23."
+  },
+  {
+    "id": "P3",
+    "title": "Negative priming from ignored distractors in visual selection: A review",
+    "authors": ["Elaine Fox"],
+    "year": 1995,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/BF03210958",
+    "citation_count": 500,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": ["paradigm_definition", "selective_inhibition_interpretation", "design_scope"],
+    "parameter_bindings": {},
+    "notes": "Publisher full text is openly accessible; Semantic Scholar citation count checked 2026-08-23."
+  },
+  {
+    "id": "P4",
+    "title": "The negative priming paradigm: An update and implications for selective attention",
+    "authors": ["Christian Frings", "Katja Kerstin Schneider", "Elaine Fox"],
+    "year": 2015,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/s13423-015-0841-4",
+    "citation_count": 168,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": ["modern_interpretation", "analysis_limitations", "probe_distractor_requirement"],
+    "parameter_bindings": {},
+    "notes": "Open accepted manuscript in Oxford University Research Archive; OpenAlex citation count checked 2026-08-23."
+  }
+]

@@ -1,0 +1,16 @@
+# Stimulus Mapping
+
+## Mapping Table
+
+| Condition | Stage/Phase | Stimulus IDs | Participant-Facing Content | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Asset References | Notes |
+|---|---|---|---|---|---|---|---|---|
+| `no_distractor` | `ready` | `ready_prompt` | Blue Chinese readiness prompt on black; SPACE begins the pair. | `P1` | Methods specify a blue readiness cue and participant-controlled start. | `psychopy_builtin` | `config/*.yaml:stimuli.ready_prompt` | Translation preserves function. |
+| `no_distractor` | `prime_response` | `shape_target`, `shape_reference` | Green outline on left; white outline on right; no red prime distractor. | `P1` | No-distractor prime presents the target alone; Figure 1B shows spatial arrangement. | `psychopy_builtin` | `task.shape_specs`, `src/utils.py` | Match/different response. |
+| `no_distractor` | `probe_response` | `shape_target`, `shape_distractor`, `shape_reference` | Green target over red distractor on left and white reference on right; identities unrelated to prime. | `P1` | All probes contain target and distractor; identities following no-distractor primes are unrelated to prime target. | `psychopy_builtin` | `task.shape_specs`, `src/utils.py` | Green drawn last to occlude red. |
+| `control` | `prime_response` | `shape_target`, `shape_distractor`, `shape_reference` | Green target over red distractor on left and white reference on right. | `P1` | Distractor primes contain a target accompanied by a distractor. | `psychopy_builtin` | `task.shape_specs`, `src/utils.py` | Abstract closed outlines. |
+| `control` | `probe_response` | `shape_target`, `shape_distractor`, `shape_reference` | New green/red pair on left and white reference on right; no prime identities repeat. | `P1` | Control-distractor probe target and distractor are unrelated to prime items. | `psychopy_builtin` | `task.shape_specs`, `src/utils.py` | Baseline for NP contrast. |
+| `negative_priming` | `prime_response` | `shape_target`, `shape_distractor`, `shape_reference` | Green target over red distractor on left and white reference on right. | `P1` | Distractor prime display from the shape-matching task. | `psychopy_builtin` | `task.shape_specs`, `src/utils.py` | Red shape must be ignored. |
+| `negative_priming` | `probe_response` | `shape_target`, `shape_distractor`, `shape_reference` | The former red distractor reappears as the green target; new red distractor and white reference accompany it. | `P1`, `P3`, `P4` | P1 defines the probe target as the preceding prime distractor; reviews define ignored repetition as the critical NP manipulation. | `psychopy_builtin` | `task.shape_specs`, `src/utils.py` | Critical identity-role reversal. |
+| `all` | `prime_fixation`, `probe_fixation` | `fixation` | White plus sign centered on black. | `P1` | Fixation point precedes both prime and probe for 500 ms. | `psychopy_builtin` | `config/*.yaml:stimuli.fixation` | No concurrent labels. |
+| `all` | `pre_pair_blank`, `inter_display_blank` | `blank_screen` | Uniform black field. | `P1` | Methods specify 1,100-ms and 100-ms blank screens. | `psychopy_builtin` | `config/*.yaml:stimuli.blank_screen` | No visible placeholder content. |
+
